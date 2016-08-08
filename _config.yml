@@ -1,28 +1,40 @@
-name: Chak Good
 favicon: null
-layout_spectrum: 0.7442720073740929
-typography_spectrum: 0.2037243025843054
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Chak Good
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0.2780437567271292
-  lightness: 0.9440875689033419
-  saturation: 0.7764734281226993
-  rhythmicContrast: 0.8108097726944834
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8064516
+  brandStrength: 0.2777778
+  lightness: 0.8476703
+  brandColors:
+    - '#007F00'
+    - '#0B0403'
+    - '#DEA357'
+    - '#FFFFFF'
+    - '#7D5C23'
+  rhythmicContrast: 0.6666667
+typography_spectrum: 0.5358423
+layout_spectrum: 0.6577061
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
